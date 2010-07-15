@@ -1,0 +1,21 @@
+Lightweight and simple, jQuery plugin to mask fields that need to format.
+
+#Usage
+
+	$('input-to-mask').mask('your-mask-format')
+
+	To build your mask, you must to use sharp character (#) see bellow: 
+
+		-phone: ## (##) ####-####
+		-brazilian zip code: ## ###-###
+	
+		#Sample: 
+			Consider the input of id phone-number that has the value 556399548719
+		
+			$('#phone-number').mask('## (##) ####-#####');
+			
+			The result should be 55 (63) 9954-8719
+			
+			Simple uh?!
+			
+Have fun!
